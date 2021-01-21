@@ -1,0 +1,283 @@
+
+CASE 1:
+
+Input:
+danny parrish 9
+10 a b
+c 11 d
+end
+
+Output:
+danny parrish 11 F
+c d 10 F
+a b 9 F
+Average = 10
+
+Purpose:
+Test score in any position.
+
+
+CASE 2:
+
+Input:
+a aa 0
+b bb 0
+end
+
+Output:
+a aa 0 F
+b bb 0 F
+Average = 0
+
+Purpose:
+Test same score and minimum score.
+
+
+CASE 3:
+
+Input:
+b aa 20
+a aa 10
+end
+
+Output:
+a aa 20 F
+b aa 10 F
+Average = 15
+
+Purpose:
+Test same last name.
+
+
+CASE 4:
+
+Input:
+b aa 100
+a aa 100
+end
+
+Output:
+a aa 100 A
+b aa 100 A
+Average = 100
+
+Purpose:
+Test same last name and same score.
+
+
+CASE 5:
+
+Input:
+a aa 100
+end
+
+Output:
+a aa 100 A
+Average = 100
+
+Purpose:
+Test one entry and maximum score.
+
+
+CASE 6:
+
+Input:
+  a aa  40  
+	b	bb	60	
+end
+
+Output:
+b bb 60 D-
+a aa 40 F
+Average = 50
+
+Purpose:
+Test extra spaces and tabs before, after, and between names and scores
+
+
+CASE 7:
+
+Input:
+a aa 59
+b bb 60
+c cc 62
+d dd 63
+e ee 65
+end
+
+Output:
+e ee 65 D 
+d dd 63 D 
+c cc 62 D-
+b bb 60 D-
+a aa 59 F
+Average = 61
+
+Purpose:
+Test the lower letter grades with each grade letter and sign change.
+
+
+
+CASE 8:
+
+Input:
+e ee 66
+f ff 69
+g gg 70
+h hh 72
+i ii 73
+j jj 75
+k kk 76
+l ll 79
+m mm 80
+n nn 82
+o oo 83
+p pp 85
+q qq 86
+r rr 89
+s ss 90
+t tt 92
+u uu 93
+end
+
+Output:
+u uu 93 A 
+t tt 92 A-
+s ss 90 A-
+r rr 89 B+
+q qq 86 B+
+p pp 85 B 
+o oo 83 B 
+n nn 82 B-
+m mm 80 B-
+l ll 79 C+
+k kk 76 C+
+j jj 75 C 
+i ii 73 C 
+h hh 72 C-
+g gg 70 C-
+f ff 69 D+
+e ee 66 D+
+Average = 80
+
+Purpose:
+Test the higher letter grades with each grade letter and sign change.
+
+
+
+CASE 9:
+
+Input:
+u 0 uu
+end 0 ee 
+f  0 ff
+  0  	h  hh
+ g 0 gg
+j 0 jj
+k 0 kk
+l  ll  0  
+s 0 ss
+   mmmmmmmmmmmmmmp   0  mmmmmmmmmmmmmm	
+n 0 nn
+o 0 oo
+q  0 	qq
+r 0 rr
+t 0   tt
+p 0 pp
+i 1 ii
+end
+test
+
+Output:
+u uu 1 F 
+end ee 0 F 
+f ff 0 F 
+g gg 0 F 
+h hh 0 F 
+i ii 0 F 
+j jj 0 F 
+k kk 0 F 
+l ll 0 F 
+mmmmmmmmmmmmmmp mmmmmmmmmmmmmm 0 F 
+n nn 0 F 
+o oo 0 F 
+p pp 0 F 
+q qq 0 F 
+r rr 0 F 
+s ss 0 F 
+t tt 0 F 
+Average = 0
+
+
+Purpose:
+Test mix of many same scores, various spaces and tabs and
+	score positions, maximum length of names, and 
+	characters after "end."
+
+
+
+
+CASE 10:
+
+Input:
+t tt 0
+s ss 1
+r rr 2
+q qq 3
+p pp 4
+o oo 5
+n nn 6
+m mm 7
+l ll 8
+k kk 9
+j jj 10
+i ii 11
+h hh 12
+g gg 13
+f ff 14
+e ee 15
+d dd 16
+c cc 17
+b bb 18
+a aa 19
+end
+
+Output:
+t tt 19 F 
+s ss 18 F 
+r rr 17 F 
+q qq 16 F 
+p pp 15 F 
+o oo 14 F 
+n nn 13 F 
+m mm 12 F 
+l ll 11 F 
+k kk 10 F 
+j jj 9 F 
+i ii 8 F 
+h hh 7 F 
+g gg 6 F 
+f ff 5 F 
+e ee 4 F 
+d dd 3 F 
+c cc 2 F 
+b bb 1 F 
+a aa 0 F 
+Average = 9
+
+
+Purpose:
+Tests worst case sorting for both names and scores.
+	Also tests max number of input names.
+
+
+
+
+
+
+
+
+
+
+
+

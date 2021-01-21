@@ -1,0 +1,19 @@
+u 0 uu
+end 0 ee 
+f  0 ff
+  0  	h  hh
+ g 0 gg
+j 0 jj
+k 0 kk
+l  ll  0  
+s 0 ss
+   mmmmmmmmmmmmmmp   0  mmmmmmmmmmmmmm	
+n 0 nn
+o 0 oo
+q  0 	qq
+r 0 rr
+t 0   tt
+p 0 pp
+i 1 ii
+end
+test

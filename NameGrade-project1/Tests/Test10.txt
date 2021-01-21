@@ -1,0 +1,21 @@
+t tt 0
+s ss 1
+r rr 2
+q qq 3
+p pp 4
+o oo 5
+n nn 6
+m mm 7
+l ll 8
+k kk 9
+j jj 10
+i ii 11
+h hh 12
+g gg 13
+f ff 14
+e ee 15
+d dd 16
+c cc 17
+b bb 18
+a aa 19
+end

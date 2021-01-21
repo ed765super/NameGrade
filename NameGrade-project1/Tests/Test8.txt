@@ -1,0 +1,18 @@
+e ee 66
+f ff 69
+g gg 70
+h hh 72
+i ii 73
+j jj 75
+k kk 76
+l ll 79
+m mm 80
+n nn 82
+o oo 83
+p pp 85
+q qq 86
+r rr 89
+s ss 90
+t tt 92
+u uu 93
+end
